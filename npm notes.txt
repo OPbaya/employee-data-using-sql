@@ -1,0 +1,14 @@
+
+npm install nodemon -d
+npm run dev			//"dev": nodemon server.js
+npm install mongoose
+npm install .env
+
+frontend:
+npm create vite@latest
+npm install
+npm run dev
+npm i react-router
+npm i react-hot-toast 		//toaster = Notification
+npm install -D tailwindcss@3 postcss autoprefixer
+npx tailwindcss init 

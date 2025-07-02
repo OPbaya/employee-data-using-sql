@@ -1,0 +1,19 @@
+HTTP methods:
+Get
+Post - create
+put - update post
+Delete
+
+
+200 - working fine
+201 - created
+400 - client errors
+	401 - unauthorized
+	403 - forbidden
+	404 - not found
+	429 - too many requests
+500 - server errors
+
+middleware - fn. that runs between request and response
+	- authentication check
+rate limiting - preventing too many requests
