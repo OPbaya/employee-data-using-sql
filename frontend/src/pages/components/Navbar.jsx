@@ -8,12 +8,12 @@ const Navbar = () => {
         <div className='mx-auto max-w-6xl p-4'>
             <div className='flex items-center justify-between'>
                 <h1 className='text-3xl font-bold text-green-600 font-mono tracking-tight'>
-                    YourNotes
+                    Employees Data
                 </h1>
                 <div className='flex items-center gap-4'>
                     <Link to={"/create"} className='btn btn-success'>
                     <PlusIcon className='size-5'/>
-                    <span>New Note</span>
+                    <span>New Employee</span>
                     </Link>
 
                 </div>
